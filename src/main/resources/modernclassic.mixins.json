@@ -8,6 +8,9 @@
 		"ModernMixin",
 		"MergerMixin"
 	],
+	"client": [
+
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},
