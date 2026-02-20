@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "dev.akgamerz_790.modernclassic.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ModernClassicMixin",
+		"ClassicMixin",
+		"ModernMixin",
+		"MergerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

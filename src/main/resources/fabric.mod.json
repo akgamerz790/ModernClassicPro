@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "modernclassic",
+	"version": "${version}",
+	"name": "ModernClassic",
+	"description": "ModernClassic.  Makes minecraft more Modern but without removing the Classics.",
+	"authors": [
+		"akgamerz_790"
+	],
+	"contact": {
+		"homepage": "https://guns.lol/akgamerz_790",
+		"sources": "https://github.com/akgamerz_790/ModernClassicMC"
+	},
+	"license": "PRIVATE PUBLIC LICENSING",
+	"icon": "assets/modernclassic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.akgamerz_790.modernclassic.ModernClassic"
+		]
+	},
+	"mixins": [
+		"modernclassic.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
